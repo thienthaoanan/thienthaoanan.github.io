@@ -5,5 +5,5 @@
 {% include_relative jquery.flexslider.js %}
 {% include_relative smoothScroll.js %}
 {% include_relative jquery.animsition.min.js %}
-{% include_relative assets/js/wow.min.js %}
-{% include_relative assets/js/main.js %}
+{% include_relative wow.min.js %}
+{% include_relative main.js %}
