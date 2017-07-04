@@ -303,7 +303,7 @@ header.main-header{
 }
 /*logo*/
 header.main-header .logo{
-	background: url(../img/aluminum.jpg);
+	background: rgba(255,255,255,.2);
     padding: 10px;
     float: left;
     height: 152px;
@@ -312,7 +312,7 @@ header.main-header .logo{
     border-bottom-width: 2px;
     border: solid #65BA56;
     border-top: none;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 32px 32px;
 }
 
 .menu{float: right;}
