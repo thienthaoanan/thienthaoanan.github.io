@@ -6,8 +6,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-	<meta name="author" content="Amine Akhouad">
-	<meta name="description" content="AKAD is a creative and modern template for digital agencies">
+	<meta name="author" content="Viet Anh Nguyen">
+	<meta name="description" content="Thiên thảo AnAn chuyên cung cấp các sản phẩm dược liệu, mỹ phẩm hoàn toàn từ thiên nhiên mang lại hiệu quả cao và an toàn cho người sử dụng">
 
 	<!-- STYLES -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -58,12 +58,12 @@
 			<li>
 				<div><span class="small-title uppercase montserrat-text">Thiên thảo AnAn cung cấp</span></div>
 				<div class="big-title uppercase montserrat-text">100% sản phẩm từ thiên nhiên</div>
-				<p>Các sản phẩm dược phẩm, mỹ phẩm bào chế hoàn toàn từ các dược liệu thiên nhiên không những mang lại hiệu quả cao mà còn hoàn toàn an toàn cho sức khỏe.</p>
+				<p style="padding: 10px">Các sản phẩm dược phẩm, mỹ phẩm bào chế hoàn toàn từ các dược liệu thiên nhiên không những mang lại hiệu quả cao mà còn hoàn toàn an toàn cho sức khỏe.</p>
 			</li>
 			<li>
 				<div><span class="small-title uppercase montserrat-text">Cam kết</span></div>
 				<div class="big-title uppercase montserrat-text">Không chứa hóa học độc hại</div>
-				<p>Các nguyên liệu được kiểm tra nguồn gốc rõ ràng, bào chế theo các công nghệ cao cấp không thêm bất cứ phụ gia độc hại nào.</p>
+				<p style="padding: 10px">Các nguyên liệu được kiểm tra nguồn gốc rõ ràng, bào chế theo các công nghệ cao cấp không thêm bất cứ phụ gia độc hại nào.</p>
 			</li>
 		</ul>
 	</div>
@@ -89,84 +89,6 @@
 		</div>
 	</div>
 
-
-	<!-- WHY CHOOSE US -->
-	<!--<section class="services green-section">
-		<div class="container">
-			<div class="row">
-				<div class="section-title">
-					<span>why choose us</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-
-			<div class="col-md-7 col-sm-12 services-left wow fadeInUp">
-				<div class="row" style="margin-bottom:50px">
-					<div class="col-md-6 col-sm-12">
-						<div class="row">
-							<i class="icon ion-ios-infinite-outline"></i>
-							<span class="montserrat-text uppercase service-title">unlimited options</span>
-							<ul>
-								<li>branding</li>
-								<li>design &amp; copywriting</li>
-								<li>concept development</li>
-								<li>user experience</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<div class="row">
-							<i class="icon ion-ios-shuffle"></i>
-							<span class="montserrat-text uppercase service-title">design &amp; development</span>
-							<ul>
-								<li>branding</li>
-								<li>design &amp; copywriting</li>
-								<li>concept development</li>
-								<li>user experience</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<div class="row">
-							<i class="icon ion-ios-cart-outline"></i>
-							<span class="montserrat-text uppercase service-title">e-commerce</span>
-							<ul>
-								<li>branding</li>
-								<li>design &amp; copywriting</li>
-								<li>concept development</li>
-								<li>user experience</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<div class="row">
-							<i class="icon ion-ios-settings"></i>
-							<span class="montserrat-text uppercase service-title">customizable design</span>
-							<ul>
-								<li>branding</li>
-								<li>design &amp; copywriting</li>
-								<li>concept development</li>
-								<li>user experience</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-5 col-sm-12 services-right wow fadeInUp" data-wow-delay=".1s">
-				<div class="row">
-					<img src="assets/img/serv.jpg" alt="image">
-				</div>
-			</div>
-
-		</div>
-	</section>-->
-
-
-
 	<!-- newsletter -->
 	<section class="green-section wow fadeInUp" style="padding:50px 0; margin: 0;">
 		<div class="container">
@@ -181,15 +103,19 @@
 
 			<div class="col-md-6 col-sm-12 contact-form">
 				<div class="row">
-					<div id="contact-form" class="white-section" style="padding:20px">
+					<div class="white-section" style="padding:20px">
 						<span class="montserrat-text uppercase" style="font-size:24px">Để lại số điện thoại hoặc email của bạn</span>
 						<p>
 							Thiên thảo AnAn sẽ liên hệ trong thời gian sớm nhất
 						</p>
-						<form action="#" method="post">
+						<form id="contact-form" action="https://formspree.io/thienthaoanan@gmail.com" method="post">
 							<div class="input_1">
-								<input type="text" name="email">
+								<input type="text" name="tel-email">
 								<span>Số điện thoại hoặc email</span>
+							</div>
+							<div class="textarea_1" style="height: 100px; margin-top: 2px">
+								<textarea name="message"></textarea>
+								<span>Lời nhắn</span>
 							</div>
 							<button type="submit" class="btn green" style="margin-top:20px"><span>Gửi</span></button>
 						</form>
@@ -209,7 +135,6 @@
 						<ul>
 							<li><a href="index.html" class="animsition-link">Trang chủ</a></li>
 							<li><a href="#about-us">Về chúng tôi</a></li>
-							<li><a href="">Các sản phẩm</a></li>
 							<li><a href="#contact-form">Liên hệ</a></li>
 						</ul>
 					</nav>
@@ -220,15 +145,16 @@
 				<div class="row">
 					<div class="uppercase gray-text">
 						Thiên thảo AnAn &copy;2017.
+						Web by <a href="https://vietanhdev.com" target="_blank">Viet Anh Ng.</a>
 					</div>
-					<ul class="social-icons" style="margin-top:30px;float:right">
+					<!--<ul class="social-icons" style="margin-top:30px;float:right">
 						<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
 						<li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
 						<li><a href="#"><i class="icon ion-social-youtube"></i></a></li>
 						<li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
 						<li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
 						<li><a href="#"><i class="icon ion-social-instagram"></i></a></li>
-					</ul>
+					</ul>-->
 				</div>
 			</div>
 		</div>
@@ -256,15 +182,12 @@
 				slideToStart: 0,
 				animationLoop: true,
 				pauseOnHover: false,
-				slideshowSpeed: 4000, 
+				slideshowSpeed: 5000, 
 			});
 
-			$(document).on('click', 'a', function(event){
+			$('a[href*=\\#]').on('click', function(event){     
 				event.preventDefault();
-
-				$('html, body').animate({
-					scrollTop: $( $.attr(this, 'href') ).offset().top
-				}, 500);
+				$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 			});
 		});
 	</script>

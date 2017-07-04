@@ -1,9 +1,3 @@
-/*
-	Javascript File for AKAD Template
-	Author : Akhouad-me
-	Web    : www.akhouad.me
-*/
-
 (function($){
 	$(window).load(function(){
 		// INITIALIZE ANIMSITION
@@ -118,5 +112,41 @@
 			}
 		});
 
+
+		var $contactForm = $('#contact-form-homepage');
 	});
 })(jQuery);
+
+
+// CONTACT FORM
+$(document).ready(function() {
+	var $contactForm = $('#contact-form');
+
+	$contactForm.submit(function(e) {
+		e.preventDefault();
+		var $submit = $('#contact-form button');
+		var defaultSubmitText = $submit.html();
+
+		$.ajax({
+			url: 'https://formspree.io/thienthaoanan@gmail.com',
+			method: 'POST',
+			data: $(this).serialize() + '&url=' + encodeURIComponent(window.location),
+			dataType: 'json',
+			beforeSend: function() {
+				$submit.attr('disabled', true).html('Đang gửi...');
+			},
+			success: function(data) {
+				$submit.val('Đã gửi!');
+				setTimeout(function() {
+					$submit.attr('disabled', false).html(defaultSubmitText);
+				}, 5000);
+			},
+			error: function(err) {
+				$submit.val('Có lỗi xảy ra!');
+				setTimeout(function() {
+					$submit.attr('disabled', false).html(defaultSubmitText);
+				}, 5000);
+			}
+		});
+	});
+});
