@@ -526,6 +526,12 @@ footer.main-footer nav.footer-nav ul li a{
 	background: rgba(0,0,0,.6);
 }
 
+@media (min-width: 1024px) {
+	.site-hero p{
+		width: 50%;
+	}
+}
+
 /*site hero 2 */
 .site-hero_2{
 	background: url("../img/site-hero2.jpg") no-repeat;
