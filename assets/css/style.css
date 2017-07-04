@@ -481,7 +481,7 @@ footer.main-footer nav.footer-nav ul li a{
 /* ##### 02 : SITE HEROS  ##### */
 /*site hero 1 */
 .site-hero{
-	height: 850px;
+	height: 520px;
 	width: 100%;
 	background: #fff url("../img/site-hero.jpg") no-repeat;
 	background-size: cover;
@@ -493,7 +493,7 @@ footer.main-footer nav.footer-nav ul li a{
 	height: 450px; /* 850 - 400 */
 	width: 100%;
 	position: absolute;
-	top:120px;
+	top:100px;
 }
 .site-hero ul.slides li{
 	opacity: 0;
