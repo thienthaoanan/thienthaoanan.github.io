@@ -732,39 +732,3 @@ footer.main-footer nav.footer-nav ul li a{
 .sidebar .widget .related_post .post_title{font-size: 14px;}
 .sidebar .widget .related_post .post_date{font-size: 12px;}
 .thumb:hover{opacity: .5}
-
-/*pagination*/
-.blog_pagination{
-	width: 100%;
-	text-align: center;
-	float: left;
-}
-.blog_pagination .page {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
-	font-size: 12px;
-	text-transform: uppercase;
-	display: inline-block;
-}
-.blog_pagination .page span{
-	display: inline-block;
-	padding: 0 20px;
-}
-.blog_pagination .page i{
-	-webkit-transition:all .2s ease-in-out;
-	transition:all .2s ease-in-out;
-}
-.blog_pagination .page:hover i.prev{
-	color:#7beec7;
-	display: inline-block;
-	-webkit-transform:translateX(10px);
-	    -ms-transform:translateX(10px);
-	        transform:translateX(10px);
-}
-.blog_pagination .page:hover i.next{
-	color:#7beec7;
-	display: inline-block;
-	-webkit-transform:translateX(-10px);
-	    -ms-transform:translateX(-10px);
-	        transform:translateX(-10px);
-}
