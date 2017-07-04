@@ -1,3 +1,8 @@
 ---
 ---
+{% include_relative bootstrap.min.css %}
+{% include_relative ionicons.min.css %}
+{% include_relative flexslider.css %}
+{% include_relative animsition.min.css %}
 {% include_relative animate.css %}
+{% include_relative style.css %}
