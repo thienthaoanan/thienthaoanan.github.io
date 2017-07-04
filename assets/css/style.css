@@ -303,9 +303,16 @@ header.main-header{
 }
 /*logo*/
 header.main-header .logo{
-	float: left;
-	height: 100px;
-	line-height: 100px;
+	background: url(../img/aluminum.jpg);
+    padding: 10px;
+    float: left;
+    height: 152px;
+    line-height: 132px;
+    box-sizing: border-box;
+    border-bottom-width: 2px;
+    border: solid #65BA56;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
 }
 
 .menu{float: right;}
