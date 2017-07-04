@@ -136,13 +136,13 @@ $(document).ready(function() {
 				$submit.attr('disabled', true).html('Đang gửi...');
 			},
 			success: function(data) {
-				$submit.val('Đã gửi!');
+				$submit.html('Đã gửi!');
 				setTimeout(function() {
 					$submit.attr('disabled', false).html(defaultSubmitText);
 				}, 5000);
 			},
 			error: function(err) {
-				$submit.val('Có lỗi xảy ra!');
+				$submit.html('Có lỗi xảy ra!');
 				setTimeout(function() {
 					$submit.attr('disabled', false).html(defaultSubmitText);
 				}, 5000);
